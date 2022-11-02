@@ -36,10 +36,21 @@ body {
     background-color: var(--color-button);
     padding: 1em;
     border-radius: 5px;
-    display: block
+    display: block;
+    text-decoration: none;
 }
 
 .button__second{
     background-color: transparent;
     border: 2px solid var(--white-main)
+}
+
+.container__warning{
+    font-size: 12px;
+    color: var(--color-text-second);
+}
+
+.container__title{
+    font-size: 28px;
+    font-weight: 700;
 }
