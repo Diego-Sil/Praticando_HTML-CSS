@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --color-bakcground:#00030C;
+    --color-text:#FFFFFF;
+    --color-botton:#167BF7;
+}
+
