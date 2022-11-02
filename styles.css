@@ -1,8 +1,8 @@
 :root{
     --color-bakcground:#00030C;
-    --color-text:#FFFFFF;
+    --white-main:#FFFFFF;
     --color-text-second: #C0C0C0;
-    --color-botton:#167BF7;
+    --color-button:#167BF7;
 }
 *{
     margin: 0;
@@ -12,7 +12,7 @@
 
 body {
     background-color: var(--color-bakcground);
-    color: var(--color-text);  
+    color: var(--white-main);  
 }
 
 .main {
@@ -23,4 +23,12 @@ body {
 
 .container {
     height: 100vh;
+}
+
+.container__button {
+    color: var(--white-main);
+    background-color: var(--color-button);
+    padding: 1em;
+    border-radius: 5px;
+    display: block
 }
