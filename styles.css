@@ -3,6 +3,7 @@
     --white-main:#FFFFFF;
     --color-text-second: #C0C0C0;
     --color-button:#167BF7;
+    --font-main: 'Inter';
 }
 *{
     margin: 0;
@@ -12,7 +13,10 @@
 
 body {
     background-color: var(--color-bakcground);
-    color: var(--white-main);  
+    color: var(--white-main); 
+    font-family: var(--font-main);
+    font-size:16px;
+    font-weight: 400;
 }
 
 .main {
@@ -23,6 +27,8 @@ body {
 
 .container {
     height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container__button {
@@ -31,4 +37,9 @@ body {
     padding: 1em;
     border-radius: 5px;
     display: block
+}
+
+.button__second{
+    background-color: transparent;
+    border: 2px solid var(--white-main)
 }
