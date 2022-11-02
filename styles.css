@@ -38,6 +38,7 @@ body {
     border-radius: 5px;
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .button__second{
@@ -53,4 +54,12 @@ body {
 .container__title{
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__image{
+    margin: 1em 0 2em 0;
+}
+
+.container__box{
+    margin: 0 6em
 }
