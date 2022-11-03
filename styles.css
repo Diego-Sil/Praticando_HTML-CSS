@@ -5,10 +5,10 @@
     --color-button:#167BF7;
     --font-main: 'Inter';
 }
+
 *{
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -23,6 +23,8 @@ body {
     background-image: url(/img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -62,4 +64,33 @@ body {
 
 .container__box{
     margin: 0 6em
+}
+
+.second__image{
+    width: 80%;
+}
+
+.second{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.description__title{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white-main);
+    margin-bottom: 0.1em;
+}
+
+.description__text{
+    color: var(--color-text-second);
+}
+
+.second__button{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__description{
+    padding: 2em;
 }
